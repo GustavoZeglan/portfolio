@@ -1,0 +1,18 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+
+    .texts h3 {
+        font-size: 20px;
+    }
+
+    .texts p {
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+}

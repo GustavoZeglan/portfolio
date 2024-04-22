@@ -17,20 +17,12 @@
         <img src="assets/chimp.png" alt="Chimp">
         <h3>Gustavo Zeglan</h3>
     </div>
-    <img id="menu" class="pointer" src="assets/menu.svg" alt="Menu">
+    <img onclick="openNav()" id="menu" class="pointer" src="assets/menu.svg" alt="Menu">
 </header>
 
 <main>
 
-    <div id="mySidenav" class="sidenav">
-        <a><img id="closebtn" class="pointer" src="assets/close.svg" alt="Close"></a>
-        <a href="#" style="margin-top: 32px">Resumo</a>
-        <a href="#">Sobre</a>
-        <a href="#">Projetos</a>
-        <a href="#">Skills</a>
-    </div>
-
-    <section class="resume">
+    <section id="resume" class="resume unshow">
         <div class="resume-of-me">
             <div class="contact-me">
                 <h1 class="bold-title">Gustavo Zeglan</h1>
@@ -42,6 +34,28 @@
         <img src="assets/Hand%20coding-bro.svg" alt="NoteBook SVG">
 
     </section>
+
+
+    <section id="about" class="about unshow">
+        <img src="assets/me.png" alt="Eu">
+
+        <div class="texts">
+            <h3>Olá, meu Nome é <span class="pink-text">Gustavo Zeglan</span></h3>
+            <p>
+                Estudo programação desde os 15 anos, minha paixão pela área cresceu ao longo dos anos. Atualmente, meu
+                principal interesse é na programação backend.
+            </p>
+        </div>
+
+    </section>
+
+    <div id="mySidenav" class="sidenav">
+        <a><img id="closebtn" class="pointer" src="assets/close.svg" alt="Close"></a>
+        <a id="resumeClick" style="margin-top: 32px">Resumo</a>
+        <a id="aboutClick">Sobre</a>
+        <a href="#">Projetos</a>
+        <a href="#">Skills</a>
+    </div>
 
 </main>
 
@@ -57,19 +71,5 @@
 </footer>
 
 </body>
-<script>
-
-    const menu = document.getElementById("menu");
-    const close = document.getElementById("closebtn");
-    menu.addEventListener("click", openNav);
-    close.addEventListener("click", closeNav);
-
-    function openNav() {
-        document.getElementById("mySidenav").style.width = "160px";
-    }
-
-    function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-    }
-</script>
+<script src="index.js"></script>
 </html>
