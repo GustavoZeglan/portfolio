@@ -1,0 +1,27 @@
+@import url("styles/reset.css");
+@import url("styles/utils.css");
+@import url("styles/header.css");
+@import url("styles/side.css");
+@import url("styles/resume.css");
+@import url("styles/footer.css");
+
+:root {
+    --background-color: #120458;
+    --dark-pink-color: #FF00A0;
+    --dark-purple-color: #C64CC6;
+    --light-purple-color: #FE75FE;
+    --red-color: #FF124F;
+    --blue-color: #2DE2E6;
+    --white-color: #FFFFFF;
+    --pricipal-font: "Poppins", "Arial", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--background-color);
+    font-family: var(--pricipal-font);
+}
+
+main {
+    padding: 16px;
+}

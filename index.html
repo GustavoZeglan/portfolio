@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <title>Gustavo Zeglan</title>
+</head>
+<body>
+
+<header>
+    <div class="logo pointer">
+        <img src="assets/chimp.png" alt="Chimp">
+        <h3>Gustavo Zeglan</h3>
+    </div>
+    <img id="menu" class="pointer" src="assets/menu.svg" alt="Menu">
+</header>
+
+<main>
+
+    <div id="mySidenav" class="sidenav">
+        <a><img id="closebtn" class="pointer" src="assets/close.svg" alt="Close"></a>
+        <a href="#" style="margin-top: 32px">Resumo</a>
+        <a href="#">Sobre</a>
+        <a href="#">Projetos</a>
+        <a href="#">Skills</a>
+    </div>
+
+    <section class="resume">
+        <div class="resume-of-me">
+            <div class="contact-me">
+                <h1 class="bold-title">Gustavo Zeglan</h1>
+                <h1 class="medium-title">Desenvolvedor Backend</h1>
+            </div>
+            <a class="btn shadow pointer">Converse Comigo!</a>
+        </div>
+
+        <img src="assets/Hand%20coding-bro.svg" alt="NoteBook SVG">
+
+    </section>
+
+</main>
+
+<footer>
+
+    <div class="social">
+        <a href="https://github.com/GustavoZeglan" target="_blank"><img src="assets/github.svg" alt="GitHub"></a>
+        <a href="https://github.com/GustavoZeglan" target="_blank"><img src="assets/linkedin.svg" alt="Linkedin"></a>
+        <a href="https://github.com/GustavoZeglan" target="_blank"><img src="assets/whatsapp.svg" alt="WhatsApp"></a>
+        <a href="https://github.com/GustavoZeglan" target="_blank"><img src="assets/email.svg" alt="Email"></a>
+    </div>
+
+</footer>
+
+</body>
+<script>
+
+    const menu = document.getElementById("menu");
+    const close = document.getElementById("closebtn");
+    menu.addEventListener("click", openNav);
+    close.addEventListener("click", closeNav);
+
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "160px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+</html>

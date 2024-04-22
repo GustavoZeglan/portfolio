@@ -1,0 +1,26 @@
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 36px;
+
+    .resume-of-me {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+
+        .contact-me {
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+
+    img {
+        width: 80%;
+        align-self: center;
+    }
+
+}
