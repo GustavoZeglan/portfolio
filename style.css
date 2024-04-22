@@ -3,6 +3,7 @@
 @import url("styles/header.css");
 @import url("styles/side.css");
 @import url("styles/resume.css");
+@import url("styles/about.css");
 @import url("styles/footer.css");
 
 :root {
@@ -20,6 +21,7 @@ body {
     height: 100vh;
     background-color: var(--background-color);
     font-family: var(--pricipal-font);
+    color: var(--light-purple-color);
 }
 
 main {

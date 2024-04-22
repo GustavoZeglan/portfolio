@@ -10,16 +10,16 @@
     font-size: 20px;
 }
 
+.pink-text {
+    color: var(--dark-pink-color);
+}
+
 .pointer {
     cursor: pointer;
 }
 
 .unshow {
     display: none;
-}
-
-.show {
-    display: flex;
 }
 
 .shadow {
