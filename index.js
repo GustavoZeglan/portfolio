@@ -11,8 +11,16 @@ menu.addEventListener("click", openNav);
 close.addEventListener("click", closeNav);
 
 
-resumeClick.addEventListener("click", () => changeSection(resume, "resume"));
-aboutClick.addEventListener("click", () => changeSection(about, "about"));
+resumeClick.addEventListener("click", () => {
+    changeSection(resume, "resume");
+    clearNav();
+    resumeClick.style.color = "#C64CC6";
+});
+aboutClick.addEventListener("click", () => {
+    changeSection(about, "about");
+    clearNav();
+    aboutClick.style.color = "#C64CC6";
+});
 projectsClick.addEventListener("click", () => {
     changeSection(projects, "projects");
     projects.innerHTML += `
@@ -87,6 +95,9 @@ projectsClick.addEventListener("click", () => {
         },
     });
 
+    clearNav();
+    projectsClick.style.color = "#C64CC6";
+
 });
 
 function changeSection(section, sectionName) {
@@ -99,6 +110,12 @@ function clear() {
     about.classList.remove("about");
     projects.classList.remove("projects");
     projects.innerHTML = "";
+}
+
+function clearNav() {
+    resumeClick.style.color = "#FE75FE"
+    aboutClick.style.color = "#FE75FE"
+    projectsClick.style.color = "#FE75FE"
 }
 
 function initSection() {
