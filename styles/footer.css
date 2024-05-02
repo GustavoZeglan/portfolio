@@ -1,6 +1,6 @@
 footer {
-    position: absolute;
-    bottom: 0;
+    /*position: absolute;*/
+    /*bottom: 0;*/
     width: 100%;
     display: flex;
     justify-content: center;
@@ -25,6 +25,14 @@ footer {
 
         }
 
+    }
+
+}
+
+@media (width >= 1280px) {
+    footer {
+        padding-left: 64px;
+        justify-content: flex-start;
     }
 
 }
