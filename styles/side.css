@@ -5,7 +5,7 @@
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: var(--background-color);
+    background-color: #220F81;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -21,6 +21,7 @@
     color: var(--light-purple-color);
     display: block;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .sidenav a:hover {
