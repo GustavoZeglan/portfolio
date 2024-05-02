@@ -12,5 +12,45 @@ header {
         font-size: 16px;
     }
 
+    nav {
+        display: none;
+        gap: 8px;
+        a {
+            transition: 0.5s;
+            font-size: 20px;
+            cursor: pointer;
+            font-weight: bold;
+
+            &:hover {
+                color: var(--dark-purple-color);
+            }
+
+        }
+    }
+
+    .btn {
+        display: none;
+    }
+
 }
 
+@media screen and (width >= 1280px) {
+    header {
+        padding: 22px 28px;
+
+        .menu {
+            display: none;
+        }
+
+        .btn {
+            display: block;
+            font-size: 16px;
+        }
+
+        nav {
+            display: flex;
+        }
+
+    }
+
+}

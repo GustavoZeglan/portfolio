@@ -43,3 +43,18 @@
     }
 
 }
+
+@media (width >= 1280px) {
+    .bold-title {
+        font-size: 48px;
+    }
+
+    .medium-title {
+        font-size: 48px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+
+}
