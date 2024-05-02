@@ -4,6 +4,7 @@
 @import url("styles/side.css");
 @import url("styles/resume.css");
 @import url("styles/about.css");
+@import url("styles/projects.css");
 @import url("styles/footer.css");
 
 :root {
@@ -14,6 +15,8 @@
     --red-color: #FF124F;
     --blue-color: #2DE2E6;
     --white-color: #FFFFFF;
+    --dark-grey-color: #1E1E1E;
+    --dark-light-color: #263238;
     --pricipal-font: "Poppins", "Arial", sans-serif;
 }
 

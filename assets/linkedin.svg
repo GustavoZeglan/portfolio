@@ -1,17 +1,1 @@
-<svg width="37" height="36" viewBox="0 0 37 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_49_321)">
-<path d="M30.2222 0H6.21592C5.11592 0 4.22217 0.90625 4.22217 2.01875V25.9813C4.22217 27.0938 5.11592 28 6.21592 28H30.2222C31.3222 28 32.2222 27.0938 32.2222 25.9813V2.01875C32.2222 0.90625 31.3222 0 30.2222 0ZM12.6847 24H8.53467V10.6375H12.6909V24H12.6847ZM10.6097 8.8125C9.27842 8.8125 8.20342 7.73125 8.20342 6.40625C8.20342 5.08125 9.27842 4 10.6097 4C11.9347 4 13.0159 5.08125 13.0159 6.40625C13.0159 7.7375 11.9409 8.8125 10.6097 8.8125ZM28.2409 24H24.0909V17.5C24.0909 15.95 24.0597 13.9563 21.9347 13.9563C19.7722 13.9563 19.4409 15.6438 19.4409 17.3875V24H15.2909V10.6375H19.2722V12.4625H19.3284C19.8847 11.4125 21.2409 10.3062 23.2597 10.3062C27.4597 10.3062 28.2409 13.075 28.2409 16.675V24Z" fill="#FF124F"/>
-</g>
-<defs>
-<filter id="filter0_d_49_321" x="0.222168" y="0" width="36" height="36" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="2"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_49_321"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_49_321" result="shape"/>
-</filter>
-</defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="28px" height="32px" viewBox="0 0 448 512"><path fill="#FF124F" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5c0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7c-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5c67.2 0 79.7 44.3 79.7 101.9z"/></svg>
